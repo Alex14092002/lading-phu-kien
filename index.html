@@ -6985,6 +6985,16 @@
           });
         }
       });
+      document.addEventListener("DOMContentLoaded", (event) => {
+        const closeButton = document.querySelector("#BUTTON_TEXT1110");
+        if (closeButton) {
+          closeButton.addEventListener("click", () => {
+            setTimeout(() => {
+              window.location.href = "./camon.html";
+            }, 1000);
+          });
+        }
+      });
     </script>
   </body>
 </html>
