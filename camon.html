@@ -1,162 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cảm ơn</title>
     <script>
-        !(function (w, d, t) {
-          w.TiktokAnalyticsObject = t;
-          var ttq = (w[t] = w[t] || []);
-          (ttq.methods = [
-            "page",
-            "track",
-            "identify",
-            "instances",
-            "debug",
-            "on",
-            "off",
-            "once",
-            "ready",
-            "alias",
-            "group",
-            "enableCookie",
-            "disableCookie",
-          ]),
-            (ttq.setAndDefer = function (t, e) {
-              t[e] = function () {
-                t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-              };
-            });
-          for (var i = 0; i < ttq.methods.length; i++)
-            ttq.setAndDefer(ttq, ttq.methods[i]);
-          (ttq.instance = function (t) {
-            for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)
-              ttq.setAndDefer(e, ttq.methods[n]);
-            return e;
-          }),
-            (ttq.load = function (e, n) {
-              var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
-              (ttq._i = ttq._i || {}),
-                (ttq._i[e] = []),
-                (ttq._i[e]._u = i),
-                (ttq._t = ttq._t || {}),
-                (ttq._t[e] = +new Date()),
-                (ttq._o = ttq._o || {}),
-                (ttq._o[e] = n || {});
-              var o = document.createElement("script");
-              (o.type = "text/javascript"),
-                (o.async = !0),
-                (o.src = i + "?sdkid=" + e + "&lib=" + t);
-              var a = document.getElementsByTagName("script")[0];
-              a.parentNode.insertBefore(o, a);
-            });
-  
-          ttq.load("CN0RGB3C77UFJAETEKSG");
-          ttq.page();
-        })(window, document, "ttq");
-      </script>
-      <!-- Meta Pixel Code -->
-      <script>
-        !(function (f, b, e, v, n, t, s) {
-          if (f.fbq) return;
-          n = f.fbq = function () {
-            n.callMethod
-              ? n.callMethod.apply(n, arguments)
-              : n.queue.push(arguments);
-          };
-          if (!f._fbq) f._fbq = n;
-          n.push = n;
-          n.loaded = !0;
-          n.version = "2.0";
-          n.queue = [];
-          t = b.createElement(e);
-          t.async = !0;
-          t.src = v;
-          s = b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t, s);
-        })(
-          window,
-          document,
-          "script",
-          "https://connect.facebook.net/en_US/fbevents.js"
-        );
-        fbq("init", "692244726323599");
-        fbq("track", "PageView");
-      </script>
-      <noscript
-        ><img
-          height="1"
-          width="1"
-          style="display: none"
-          src="https://www.facebook.com/tr?id=692244726323599&ev=PageView&noscript=1"
-      /></noscript>
-      <!-- End Meta Pixel Code -->
-  
-</head>
+      !(function (w, d, t) {
+        w.TiktokAnalyticsObject = t;
+        var ttq = (w[t] = w[t] || []);
+        (ttq.methods = [
+          "page",
+          "track",
+          "identify",
+          "instances",
+          "debug",
+          "on",
+          "off",
+          "once",
+          "ready",
+          "alias",
+          "group",
+          "enableCookie",
+          "disableCookie",
+        ]),
+          (ttq.setAndDefer = function (t, e) {
+            t[e] = function () {
+              t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+            };
+          });
+        for (var i = 0; i < ttq.methods.length; i++)
+          ttq.setAndDefer(ttq, ttq.methods[i]);
+        (ttq.instance = function (t) {
+          for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)
+            ttq.setAndDefer(e, ttq.methods[n]);
+          return e;
+        }),
+          (ttq.load = function (e, n) {
+            var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
+            (ttq._i = ttq._i || {}),
+              (ttq._i[e] = []),
+              (ttq._i[e]._u = i),
+              (ttq._t = ttq._t || {}),
+              (ttq._t[e] = +new Date()),
+              (ttq._o = ttq._o || {}),
+              (ttq._o[e] = n || {});
+            var o = document.createElement("script");
+            (o.type = "text/javascript"),
+              (o.async = !0),
+              (o.src = i + "?sdkid=" + e + "&lib=" + t);
+            var a = document.getElementsByTagName("script")[0];
+            a.parentNode.insertBefore(o, a);
+          });
 
-<style>
-    body, html {
-	 background: #16a085;
-}
- #wrapper {
-	 width: 600px;
-	 margin: 0 auto;
-	 margin-top: 15%;
-}
- h1 {
-	 color: #eee;
-	 text-shadow: -1px -2px 3px rgba(17, 17, 17, 0.3);
-	 text-align: center;
-	 font-family: "Monsterrat", sans-serif;
-	 font-weight: 900;
-	 text-transform: uppercase;
-	 font-size: 80px;
-	 margin-bottom: -5px;
-}
- h1 underline {
-	 border-top: 5px solid rgba(26, 188, 156, 0.3);
-	 border-bottom: 5px solid rgba(26, 188, 156, 0.3);
-}
- h3 {
-	 width: 570px;
-	 margin-left: 16px;
-	 font-family: "Lato", sans-serif;
-	 font-weight: 600;
-	 color: #eee;
-     text-align: center;
-}
- 
+        ttq.load("CN3IDP3C77U0CFANU1DG");
+        ttq.page();
+      })(window, document, "ttq");
+    </script>
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "692244726323599");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=692244726323599&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
 
-</style>
-<script>
-    $( document ).ready(function() {
-  // perform some jQuery when page is loaded
-  
-$("h1").hover(function() { 
-  // when user is hovering the h1
-  $( this ).addClass("animated infinite pulse"); 
-  // we add pulse animation and to infinite
-}, function() {
-  // when user no longer hover on the h1
-  $( this ).removeClass("animated infinite pulse");
-  // we remove the pulse
-});
-});
+  <style>
+    body,
+    html {
+      background: #16a085;
+    }
+    #wrapper {
+      width: 600px;
+      margin: 0 auto;
+      margin-top: 15%;
+    }
+    h1 {
+      color: #eee;
+      text-shadow: -1px -2px 3px rgba(17, 17, 17, 0.3);
+      text-align: center;
+      font-family: "Monsterrat", sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 80px;
+      margin-bottom: -5px;
+    }
+    h1 underline {
+      border-top: 5px solid rgba(26, 188, 156, 0.3);
+      border-bottom: 5px solid rgba(26, 188, 156, 0.3);
+    }
+    h3 {
+      width: 570px;
+      margin-left: 16px;
+      font-family: "Lato", sans-serif;
+      font-weight: 600;
+      color: #eee;
+      text-align: center;
+    }
+  </style>
+  <script>
+    $(document).ready(function () {
+      // perform some jQuery when page is loaded
 
-</script>
-<body>
-    
+      $("h1").hover(
+        function () {
+          // when user is hovering the h1
+          $(this).addClass("animated infinite pulse");
+          // we add pulse animation and to infinite
+        },
+        function () {
+          // when user no longer hover on the h1
+          $(this).removeClass("animated infinite pulse");
+          // we remove the pulse
+        }
+      );
+    });
+  </script>
+  <body>
     <div id="wrapper" class="animated zoomIn">
-        <!-- We make a wrap around all of the content so that we can simply animate all of the content at the same time. I wanted a zoomIn effect and instead of placing the same class on all tags, I wrapped them into one div! -->
+      <!-- We make a wrap around all of the content so that we can simply animate all of the content at the same time. I wanted a zoomIn effect and instead of placing the same class on all tags, I wrapped them into one div! -->
       <h1>
         <!-- The <h1> tag is the reason why the text is big! -->
         <underline>Cảm ơn!</underline>
         <!-- The underline makes a border on the top and on the bottom of the text -->
       </h1>
-      <h3>
-      Cảm ơn quý khách đã mua hàng
-      </h3>
-      </div>
-</body>
+      <h3>Cảm ơn quý khách đã mua hàng</h3>
+    </div>
+  </body>
 </html>
